@@ -19,8 +19,8 @@ header{
     left: 0;
     right: 0;
     z-index: 1;
-    line-height: 42px;
-    font-family: 'Prompt';font-size: 22px;
+    line-height: 45px;
+    font-family: 'Prompt';
     color: #E6D8D6;
 }
 a{
