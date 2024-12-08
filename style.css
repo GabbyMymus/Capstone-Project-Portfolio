@@ -37,3 +37,20 @@ a{
     font-family: 'Hepta Slab';
     color: #E6D8D6;
 }
+.title-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.title-img img{
+    border-radius: 12px;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 95vw;
+    margin: 100px auto;
+}
+
