@@ -68,10 +68,32 @@ a{
 .desc{
     color:#E6D8D6;
     font-family: 'Fira Sans';
+    font-size: 20px;
 }
 .sub_desc{
     color: #E6D8D69E;
     font-family: 'Fira Sans';
+    font-size: 17px;
 }
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 100vw; */
+    /* font-size: 25px; */
+    
+    padding: 0px 100px;
+}
+.about h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 950px;
+    text-align: center;
+    font-family: 'Hepta Slab';
+    color: #E6D8D6;
+    font-size: 50px;
+}
+
 
 
