@@ -1,14 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: #2D2726;
     margin: 0;
 }
 
-.header{
+.header {
     font-size: 42px;
     border-bottom: 1.5px solid #E6D8D633;
     display: flex;
@@ -26,11 +27,12 @@ body{
     margin-bottom: 100px;
 }
 
-a{
+a {
     text-decoration: none;
     color: #E6D8D6;
 }
-.title{
+
+.title {
     margin-top: 100px;
     font-size: 70px;
     text-align: center;
@@ -38,13 +40,15 @@ a{
     color: #E6D8D6;
     margin-bottom: 20px;
 }
-.title-img{
+
+.title-img {
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
-.title-img img{
+
+.title-img img {
     border-radius: 12px;
 }
 
@@ -56,35 +60,40 @@ a{
     margin: 100px auto;
 }
 
-.projects{
+.projects {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
 }
+
 .project {
     margin-bottom: 50px;
 }
 
-.desc{
-    color:#E6D8D6;
+.desc {
+    color: #E6D8D6;
     font-family: 'Fira Sans';
     font-size: 20px;
 }
-.sub_desc{
+
+.sub_desc {
     color: #E6D8D69E;
     font-family: 'Fira Sans';
     font-size: 17px;
 }
-.about{
+
+.about {
     display: flex;
     align-items: center;
     justify-content: center;
     /* width: 100vw; */
     /* font-size: 25px; */
-    
+
     padding: 0px 100px;
+    margin-bottom: 100px;
 }
-.about h1{
+
+.about h1 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -95,5 +104,130 @@ a{
     font-size: 50px;
 }
 
+.contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    gap: 28px;
+    margin-bottom: 55px;
+
+}
+
+.contact p {
+    font-family: 'Hepta Slab';
+    color: #E6D8D6;
+
+}
+
+.contact .contact-me {
+    font-size: 28px;
+}
+
+.right2 {
+    width: 50vw;
+    font-family: 'Fira Sans';
+    font-size: 17px;
+}
+.touch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.get-in-touch{
+    display: grid;
+    grid-template-rows: 1fr, 1fr;
+    align-content: center;
+    justify-content: center;
+    row-gap: 20px;
+    width: 700px;
+    text-align: center;
+}
 
 
+.name{
+    width: 100%;
+}
+
+
+.name .name-input{
+    width: 344px;
+    height: 44px;
+    background-color: rgb(79,74,73);
+    border: 0px;
+    margin-right: 4px;
+    border: 2px solid rgb(109,102,101);
+    border-radius: 4px;
+}
+
+.name .name-input::placeholder{
+    padding: 8px;
+}
+
+
+input[type = "email"]{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 700px;
+    height: 44px;
+    border: 2px solid rgb(109,102,101);
+    border-radius: 4px;
+    background-color: rgb(79,74,73);
+}
+
+.messages{
+    width: 700px;
+    height: 124px;
+    border: 2px solid rgb(109,102,101);
+    border-radius: 4px;
+    background: rgb(79,74,73);
+}
+
+.get-in-touch h1{
+    font-family: 'Domine';
+    color: #E5D9D7;
+    font-size: 34px;
+}
+
+.reset{
+    display: flex;
+    align-items: left;
+    width: 73px;
+    height: 32px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 7px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Fira Sans";
+    color: #0A0606;
+    border: none;
+}
+
+.line{
+    margin-top: 80px;
+    margin-bottom: 120px;
+    border: 1px solid rgb(75,64,65);
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+.footer-text{
+    color: #E6D8D6;
+    font-family: 'Hepta Slab';
+    font-size: 28px;
+}
+
+.footer-button{
+    background-color: #2D2726;
+    height: 48px;
+    width: 118px;
+    color: #E6D8D6;
+    border: 1.5px solid rgb(73, 63, 60);
+    border-radius: 8px;
+    font-family: 'Fira Sans';
+    font-size: 20px;
+    line-height: 24px;
+}
