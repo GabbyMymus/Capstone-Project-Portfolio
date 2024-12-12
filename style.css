@@ -10,7 +10,7 @@ body{
 
 .header{
     font-size: 42px;
-    border-bottom: 5px solid #E6D8D633;
+    border-bottom: 1.5px solid #E6D8D633;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -36,6 +36,7 @@ a{
     text-align: center;
     font-family: 'Hepta Slab';
     color: #E6D8D6;
+    margin-bottom: 20px;
 }
 .title-img{
     display: flex;
@@ -47,10 +48,30 @@ a{
     border-radius: 12px;
 }
 
-.projects{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.album {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 95vw;
     margin: 100px auto;
 }
+
+.projects{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+.project {
+    margin-bottom: 50px;
+}
+
+.desc{
+    color:#E6D8D6;
+    font-family: 'Fira Sans';
+}
+.sub_desc{
+    color: #E6D8D69E;
+    font-family: 'Fira Sans';
+}
+
 
