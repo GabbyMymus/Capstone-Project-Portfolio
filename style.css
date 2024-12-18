@@ -18,18 +18,18 @@ body {
     padding: 12px;
     padding-left: 16px;
     padding-right: 16px;
-    /* top: 0;
-    left: 0;
-    right: 0; */
     line-height: 45px;
     font-family: 'Prompt';
     color: #E6D8D6;
     margin-bottom: 100px;
 }
 
+
 a {
     text-decoration: none;
     color: #E6D8D6;
+    font-family: 'Hepta Slab';
+    font-size: 32px;
 }
 
 .title {
@@ -230,4 +230,109 @@ footer{
     font-family: 'Fira Sans';
     font-size: 20px;
     line-height: 24px;
+}
+
+/* Add these media queries at the end of the file */
+@media screen and (max-width: 1200px) {
+    .projects {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .right a {
+        font-size: 24px;
+        margin: 0 10px;
+    }
+
+    .title h1 {
+        font-size: 40px;
+    }
+
+    .title-img img {
+        width: 90%;
+        height: auto;
+    }
+
+    .projects {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .project img {
+        width: 100%;
+        height: auto;
+    }
+
+    .about {
+        padding: 0 20px;
+    }
+
+    .about h1 {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .contact {
+        flex-direction: column;
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    .right2 {
+        width: 100%;
+    }
+
+    .get-in-touch {
+        width: 90%;
+    }
+
+    .name .name-input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    input[type="email"],
+    .messages {
+        width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header {
+        font-size: 28px;
+    }
+
+    .right a {
+        font-size: 20px;
+        margin: 0 5px;
+    }
+
+    .title h1 {
+        font-size: 32px;
+    }
+
+    .desc {
+        font-size: 18px;
+    }
+
+    .sub_desc {
+        font-size: 15px;
+    }
+
+    .footer-text {
+        font-size: 20px;
+    }
 }
