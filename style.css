@@ -232,7 +232,8 @@ footer{
     line-height: 24px;
 }
 
-/* Add these media queries at the end of the file */
+
+
 @media screen and (max-width: 1200px) {
     .projects {
         grid-template-columns: repeat(2, 1fr);
